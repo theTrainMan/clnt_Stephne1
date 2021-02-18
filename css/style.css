@@ -1,76 +1,119 @@
 body {
-    background-color: #f3add4;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    background-color: #f2f6e9;
+}
+
+.navbar {
+    background: #010a1c;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+
+/************ Header **************/
+
+.header {
+    background-image: url('/images/header-pic.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.description h1 {
+    color: #ac0e28;
+}
+
+.description p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.description button {
+    border: 1px solid #010a1c;
+    background-color: #ac0e28;
+    border-radius: 5;
+    color: #fff;
+}
+
+.description button:hover {
+    border: 1px solid #ac0e28;
+    background-color: #fff;
+    color: #000;
 }
 
 
-/**********  Banner  **********/
+/**************** Features***************/
 
-.banner {
-    background-color: #3a7dca;
+.features {
+    background-color: #fff;
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+
+.features-title {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.features img {
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
 }
 
 
-/**********  Score Results **********/
+/***************** CONTACT PAGE *****************/
 
-#scoreResults {
-    background-color: #52a323;
-    padding: 100px;
+
+/***************** Features ******************/
+
+.features .forn-control,
+.features input {
+    border-radius: 0;
 }
 
-
-/**********  Club Players **********/
-
-#clubPlayers {
-    background-color: #ffffff;
-    display: flex;
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 100px;
+.features .btn {
+    background-color: #ac0e28;
+    border: 1px solid #ac0e28;
+    margin-top: 20px;
 }
 
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    width: 20%;
-}
-
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-.container {
-    padding: 2px 16px;
-}
-
-
-/**********  Sponsors  **********/
-
-#sponsors {
-    background-color: #d3d14d;
-    display: flex;
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 100px;
-}
-
-
-/**********  Footer **********/
-
-footer {
-    background-color: #494b4d;
+.features .btn:hover {
+    background-color: #010a1c;
+    border: 1px solid #333;
     color: #ffffff;
-    display: flex;
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 100px;
 }
