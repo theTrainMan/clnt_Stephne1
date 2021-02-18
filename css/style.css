@@ -1,11 +1,11 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #f2f6e9;
+    background-color: #f3b2bd2c;
 }
 
 .navbar {
-    background: #010a1c;
+    background: #013766;
 }
 
 .nav-link,
@@ -73,12 +73,22 @@ body {
 }
 
 
+/***************** Statement *********************/
+
+.statement {
+    margin: 50px auto;
+    padding: 50px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+}
+
+
 /**************** Features***************/
 
 .features {
     background-color: #fff;
-    margin: 4em auto;
-    padding: 1em;
+    padding: 2em;
     position: relative;
 }
 
@@ -92,7 +102,55 @@ body {
 
 .features img {
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-    margin-bottom: 16px;
+    margin: 20px 0;
+}
+
+.features .btn-features {
+    border: 1px solid #010a1c;
+    background-color: #010a1c;
+    border-radius: 5;
+    color: #fff;
+}
+
+
+/************* Administrative Staff ***********/
+
+.background {
+    background-color: #010a1c;
+    padding: 2em 0;
+}
+
+.staff {
+    color: #5e5e55;
+    padding: 0 180px;
+}
+
+.team .card-columns {
+    column-count: 4;
+}
+
+.team .card {
+    background-color: none;
+    border: none;
+}
+
+.team .card-title {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.card {
+    margin: 20px;
+}
+
+
+/******************** FOOTER *********************/
+
+.page-footer {
+    background-color: #013766;
+    color: #ccc;
+    padding: 60px;
 }
 
 
@@ -101,7 +159,7 @@ body {
 
 /***************** Features ******************/
 
-.features .forn-control,
+.features .form-control,
 .features input {
     border-radius: 0;
 }
