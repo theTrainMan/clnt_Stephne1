@@ -200,3 +200,37 @@ body {
     border: 1px solid #333;
     color: #ffffff;
 }
+
+
+/*************** Media Queries ****************/
+
+@media(max-width: 600px) {
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+    .description h2 {
+        font-size: 2em;
+        text-align: center;
+        position: absolute;
+        left: 15%;
+    }
+    .description p {
+        font-size: 1.3rem;
+    }
+    .statement p {
+        font-size: 1.1rem;
+    }
+    .features button {
+        margin-bottom: 35px;
+    }
+    .features-title {
+        background-color: #010a1c;
+        color: #fff;
+        padding: 10px;
+    }
+}
