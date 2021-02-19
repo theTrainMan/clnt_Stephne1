@@ -5,13 +5,19 @@ body {
 }
 
 .navbar {
-    background: #013766;
+    background: #010a1c;
 }
 
 .nav-link,
 .navbar-brand {
     color: #fff;
     cursor: pointer;
+}
+
+.nav-link:hover {
+    background-color: #fff;
+    color: #ac0e28;
+    font-weight: bold;
 }
 
 .nav-link {
@@ -49,14 +55,22 @@ body {
     text-align: center;
 }
 
-.description h1 {
-    color: #ac0e28;
+.description h2 {
+    color: #fff;
+    position: absolute;
+    top: -10%;
+}
+
+.description-com {
+    color: #fff;
+    top: 0%;
 }
 
 .description p {
     color: #fff;
     font-size: 1.3rem;
     line-height: 1.5;
+    padding-bottom: 50px;
 }
 
 .description button {
@@ -90,6 +104,8 @@ body {
     background-color: #fff;
     padding: 2em;
     position: relative;
+    box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.671);
+    margin-bottom: 50px;
 }
 
 .features-title {
@@ -116,39 +132,35 @@ body {
 /************* Administrative Staff ***********/
 
 .background {
-    background-color: #010a1c;
+    background-color: #ac0e28;
     padding: 2em 0;
+    color: #fff;
 }
 
 .staff {
-    color: #5e5e55;
-    padding: 0 180px;
+    color: #ffffff;
+    padding: 40 40px;
 }
 
 .team .card-columns {
     column-count: 4;
 }
 
-.team .card {
+.staff {
     background-color: none;
     border: none;
 }
 
-.team .card-title {
-    font-size: 1.3rem;
+.staff .card-title .card-text {
+    font-size: 1rem;
     margin-bottom: 0;
-    text-transform: uppercase;
-}
-
-.card {
-    margin: 20px;
 }
 
 
 /******************** FOOTER *********************/
 
 .page-footer {
-    background-color: #013766;
+    background-color: #010a1c;
     color: #ccc;
     padding: 60px;
 }
@@ -157,11 +169,24 @@ body {
 /***************** CONTACT PAGE *****************/
 
 
+/* .header-contact {
+    background-image: url('/images/header-pic-contacts.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+} */
+
+
 /***************** Features ******************/
+
+.features {
+    margin-top: 50px;
+}
 
 .features .form-control,
 .features input {
     border-radius: 0;
+    margin-top: ;
 }
 
 .features .btn {
