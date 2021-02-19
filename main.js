@@ -10,3 +10,7 @@ var ready = (callback) => {
 ready(() => {
     document.querySelector('.header').getElementsByClassName.height = window.innerHeight + 'px';
 })
+
+setTimeout(function() {
+    $('#subscribe-modal').modal();
+}, 1000);

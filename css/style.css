@@ -202,6 +202,74 @@ body {
 }
 
 
+/******************* Modal ******************/
+
+#subscribe-modal .modal-content {
+    border-radius: 0;
+    padding: 2rem;
+}
+
+#subscribe-modal .modal-header {
+    border-bottom: none;
+}
+
+
+/* .close span {
+    font-size: 12px;
+} */
+
+#subscribe-modal h4 {
+    color: #000;
+    font-size: 30px;
+    margin: 0 0 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#subscribe-modal .close {
+    background-color: #c0c3c8;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    height: 50px;
+    opacity: 0.5;
+    position: absolute;
+    right: 26px;
+    text-align: center;
+    top: 26px;
+    width: 70px;
+}
+
+#subscribe-modal .close span {
+    color: #010a1c;
+    position: relative;
+    top: -3px;
+}
+
+#subscribe-modal .modal-body p {
+    color: #010a1c;
+}
+
+#subscribe-modal .form-control,
+#subscribe-modal .btn {
+    min-height: 46px;
+}
+
+#subscribe-modal .btn {
+    background-color: #010a1c;
+    border: none;
+    columns: #fff;
+    min-width: 150px;
+    transition: all 0.4s;
+}
+
+#subscribe-modal .btn:hover,
+#subscribe-modal .btn:focus {
+    background-color: #ac0e28;
+}
+
+
 /*************** Media Queries ****************/
 
 @media(max-width: 600px) {
