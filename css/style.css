@@ -12,6 +12,7 @@ body {
 .navbar-brand {
     color: #fff;
     cursor: pointer;
+    padding-left: 25px;
 }
 
 .nav-link:hover {
@@ -249,13 +250,15 @@ summary:hover {
     border-bottom: none;
 }
 
+.modal-content {}
+
 
 /* .close span {
     font-size: 12px;
 } */
 
 #subscribe-modal h4 {
-    color: #000;
+    color: #010a1c;
     font-size: 30px;
     margin: 0 0 25px;
     font-weight: bold;
