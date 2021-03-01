@@ -29,6 +29,11 @@ body {
     justify-content: flex-end;
 }
 
+.subscribe {
+    background-color: #ac0e28;
+    border-radius: 60%;
+}
+
 
 /************ Header **************/
 
@@ -227,7 +232,7 @@ span {
     width: 100%;
     background: #fff;
     height: 100%;
-    border-radius: 40px;
+    . border-radius: 40px;
     color: #111;
     text-align: center;
     line-height: 80px;
