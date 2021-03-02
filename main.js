@@ -14,3 +14,13 @@ ready(() => {
 setTimeout(function() {
     $('#subscribe-modal').modal();
 }, 1000);
+
+/*************** subscribe click event to open Modal ******************/
+
+const subscribeClick = document.getElementById('subscribe')
+
+function subscribeEvent() {
+    alert('Congratulations')
+}
+
+subscribeClick.addEventListener('click', subscribeEvent)
